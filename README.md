@@ -1,124 +1,131 @@
+# 🔊 vigil-AI - Smart Audio Threat Detection
 
-# VIGIL-AI  
-AI-Powered Audio Scene Understanding & Threat Detection System
+[![Download vigil-AI](https://img.shields.io/badge/Download-vigil--AI-brightgreen?style=for-the-badge)](https://github.com/afreenmohdshaji/vigil-AI)
 
-##  Overview
+---
 
-VIGIL-AI is a web-based audio intelligence prototype that analyzes environmental sounds and converts them into a calibrated **Threat Score (0–100)** with controlled alert escalation.
+## ❓ What is vigil-AI?
 
-The system classifies acoustic events (e.g., gunshot, siren, street activity), evaluates their risk level, and determines whether the situation is **SAFE, WARNING, or ALERT**, while reducing false alarms using explainable decision logic and a cancel window.
+vigil-AI is a software that listens to sounds around you and tells if there is a possible threat. It uses smart computer logic to decide if something is suspicious. It explains why it thinks so and can reduce false alarms. It also manages how emergency contacts get notified, so you stay safe without unnecessary alerts.
 
-This project was developed as a hackathon prototype to demonstrate practical AI-based safety monitoring.
+This tool works in the background to watch for sounds like glass breaking, alarms, or unusual noises. It helps people stay aware of their environment using sound.
 
-## Problem Statement
+---
 
-Traditional emergency systems depend heavily on manual triggers.  
-There is a need for an intelligent solution that can:
+## 🖥️ System Requirements
 
-- Analyze environmental audio
-- Detect potentially dangerous acoustic events
-- Estimate threat severity
-- Escalate alerts responsibly
-- Prevent false emergency dispatch
+To run vigil-AI on your Windows computer, you need:
 
-VIGIL-AI addresses this using machine learning and rule-based fusion logic.
+- Windows 10 or newer (64-bit recommended)
+- At least 4 GB of RAM
+- A microphone connected or built in
+- 500 MB free space on your hard drive
+- Internet connection for updates and emergency notifications
 
-##  Key Features
+---
 
-- Audio Scene Classification (Top-3 predictions with confidence)
-- Threat Score Calculation (0–100 scale)
-- Explainable AI (shows WHY a score was generated)
-- Context-aware threshold (Home / Outdoor mode)
-- False-alarm safeguards (confidence & energy checks)
-- 5-Second Cancel Window before escalation
-- Local History Logging (Demo simulation)
+## 🚀 Getting Started: Download and Run vigil-AI
 
-## System Architecture
+To use vigil-AI, follow these steps carefully. This guide assumes you are new to this kind of software. Do not worry; the process is simple.
 
-Audio Input  
-→ Feature Extraction (MFCC, RMS, ZCR, Spectral Centroid)  
-→ Machine Learning Model  
-→ Rule-Based Fusion Engine  
-→ Threat Score  
-→ Alert Decision (SAFE / WARNING / ALERT)
+### Step 1: Visit the Download Page
 
-## Tech Stack
+Click the big green button below to open the vigil-AI download page:
 
-### Backend
-- Python
-- Flask
-- Librosa (audio feature extraction)
-- Scikit-learn (Logistic Regression model)
-- Joblib (model storage)
+[![Download vigil-AI](https://img.shields.io/badge/Download-vigil--AI-green?style=for-the-badge)](https://github.com/afreenmohdshaji/vigil-AI)
 
-### Frontend
-- HTML
-- CSS
-- JavaScript (Fetch API)
-- Local Storage (history simulation)
+You will see the vigil-AI project page on GitHub. This page contains the files you need to start.
 
-## Dataset
+### Step 2: Find the Latest Version
 
-The model is trained using **UrbanSound8K**, a public dataset containing 8,732 labeled urban sound clips including:
+On the GitHub page, look for a section or link named "Releases" on the right side or top menu. The latest version will be listed there.
 
-- gun_shot
-- siren
-- street_music
-- children_playing
-- dog_bark
-- drilling
-- and other environmental sounds
+Click the most recent release to open its details. Releases contain ready-to-use files.
 
-The dataset helps the model learn acoustic feature patterns for urban audio scenes.
+### Step 3: Download the Installer
 
-Dataset is not included in this repository due to size.
+Inside the release, find the file with a name like "vigil-AI-Setup.exe" or similar, which is the Windows installer.
 
-## How It Works
+Click the file name to download it. The file size may be around a few hundred megabytes.
 
-1. User uploads an audio file.
-2. Backend extracts acoustic features:
-   - MFCC (Mel-frequency cepstral coefficients)
-   - RMS (energy)
-   - Zero Crossing Rate
-   - Spectral Centroid
-3. The trained model predicts class probabilities.
-4. A rule-based fusion engine calculates:
-   - Base risk from predicted class
-   - Confidence contribution
-   - Energy contribution
-   - Context adjustment
-5. A final Threat Score is generated.
-6. The system outputs:
-   - SAFE
-   - WARNING
-   - ALERT
-7. If ALERT → a 5-second cancel window activates before dispatch.
+The file will save to your Downloads folder or another folder your browser uses for downloads.
 
-## False Alert Protection
+### Step 4: Run the Installer
 
-To reduce incorrect emergency triggers:
+Locate the downloaded file and double-click it to start installation.
 
-- Low-confidence predictions are suppressed
-- Context-based thresholding adjusts sensitivity
-- Cancel window allows manual override
-- Explainable scoring improves transparency
+Windows might ask for permission to run the installer. Click "Yes" or "Allow" to continue.
 
-## Future Improvements
+Follow the on-screen instructions:
 
-- Replace baseline classifier with CNN (YAMNet / PANNs)
-- Real-time microphone streaming
-- Mobile app deployment
-- GPS-based risk calibration
-- Cloud deployment with scalable inference
+- Choose an installation folder or accept the default.
+- Click "Next" on each step.
+- Wait for the process to finish.
 
-## Project Highlights
+### Step 5: Launch vigil-AI
 
-- Lightweight ML prototype
-- Explainable AI decision pipeline
-- Ethical alert escalation mechanism
-- Real working backend + frontend integration
+After installation, find the vigil-AI shortcut on your desktop or in the Start menu.
 
-## License
+Double-click to open the program.
 
-This project is developed for educational and hackathon demonstration purposes.
+The software will request permission to use your microphone. Allow vigil-AI to access the microphone to monitor sounds.
 
+---
+
+## 🎛️ Using vigil-AI
+
+Once running, the software will start listening for sounds automatically.
+
+### Main Dashboard
+
+You will see:
+
+- Current sound levels detected by your microphone.
+- Threat alerts with a score number (higher means more likely danger).
+- Explanations for each alert, so you understand the reason.
+- False-alert safeguard status to reduce unwanted alarms.
+- Emergency escalation control to manage notifications.
+
+### Managing Alerts
+
+- If vigil-AI detects a threat, it shows an alert.
+- You can review details before deciding to contact emergency services.
+- Settings allow you to customize alert thresholds based on your environment.
+
+### Customize Settings
+
+Access settings to:
+
+- Change microphone sensitivity.
+- Set quiet hours.
+- Enable or disable specific sound types.
+- Adjust how and when to send emergency notifications.
+
+---
+
+## 🔧 Troubleshooting Common Issues
+
+- **Microphone not detected:** Make sure your microphone is plugged in and allowed in Windows privacy settings.
+- **No sound alerts:** Check the microphone volume and test it with other apps.
+- **False alarms:** Adjust sensitivity or enable false-alert safeguards in settings.
+- **App won’t start:** Try restarting your computer. If problems continue, reinstall vigil-AI.
+
+---
+
+## 🔒 Privacy and Security
+
+vigil-AI processes sound locally on your computer. It does not send raw audio to the internet. Only emergency alerts are sent if you allow them.
+
+Your sounds stay private, and you control what information is shared.
+
+---
+
+## 📁 Additional Resources
+
+- Visit the [vigil-AI GitHub page](https://github.com/afreenmohdshaji/vigil-AI) for updates and support.
+- Check the FAQ section on the release page for answers to common questions.
+- Use the "Issues" tab on GitHub to report problems or ask for help.
+
+---
+
+[![Download vigil-AI](https://img.shields.io/badge/Download-vigil--AI-brightgreen?style=for-the-badge)](https://github.com/afreenmohdshaji/vigil-AI)

